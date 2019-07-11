@@ -39,7 +39,7 @@ button:nth-child(2) {
     color: black;
 }
 button:hover {
-    transition: all 0.25s; /* Where and when the transition happens */
+    transition: all 0.15s; /* Where and when the transition happens */
     transform: scale(1, 2); /* What is the end product (the movement) */
     letter-spacing: 5px;
     transition-timing-function: ease; /* How will it animate from start-->end */
@@ -94,7 +94,7 @@ p+p {
     cursor: pointer;
     color: white;
 
-    transition: all 0.25s; /* Where and when the transition happens */
+    transition: all 0.15s; /* Where and when the transition happens */
     transform: scale(1, 2); /* What is the end product (the movement) */
     letter-spacing: 5px;
     transition-timing-function: ease; /* How will it animate from start-->end */
